@@ -5,15 +5,13 @@
  */
 int main(void)
 {
-	char c;
+	int n;
 
-	c = 'a';
-	while
-		(c <= 'z')
+	n = 0;
+	while (n < 10)
 	{
-		putchar(c);
-		c++;
+		printf("%d\n", n);
+		n++;
 	}
-	putchar('\n');
-	return (0);
+		return (0);
 }
