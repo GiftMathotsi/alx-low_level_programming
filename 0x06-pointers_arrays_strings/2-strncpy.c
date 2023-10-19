@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncat - copies an inputted number
+ * _strncpy - copies an inputted number
  * @dest: is buffer storing the string copy
  * @src: is string source
  * @n: the number of bytes from src to be appended to dest
