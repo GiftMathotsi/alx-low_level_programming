@@ -11,6 +11,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int g = 0, p = 0, m = 0, b = 0;
 	char *str;
+
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
@@ -39,6 +40,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		}
 		p++;
 	}
-	str [p] = '\0';
+	str[p] = '\0';
 	return (str);
 }
